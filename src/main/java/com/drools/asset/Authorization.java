@@ -41,7 +41,6 @@ public class Authorization implements java.io.Serializable {
 	private String countryCode;
 	private String cryptoCurrencyFlag;
 	private BigDecimal currentBalance;
-	private String customerEmail;
 	private String customerGeographiclocation;
 	private String customerIPAddress;
 	private String customerMobileDeviceId;
@@ -202,9 +201,6 @@ public class Authorization implements java.io.Serializable {
 	}
 	public BigDecimal getCurrentBalance() {
 		return currentBalance;
-	}
-	public String getCustomerEmail() {
-		return customerEmail;
 	}
 	public String getCustomerGeographiclocation() {
 		return customerGeographiclocation;
@@ -460,9 +456,6 @@ public class Authorization implements java.io.Serializable {
 	}
 	public void setCurrentBalance(BigDecimal currentBalance) {
 		this.currentBalance = currentBalance;
-	}
-	public void setCustomerEmail(String customerEmail) {
-		this.customerEmail = customerEmail;
 	}
 	public void setCustomerGeographiclocation(String customerGeographiclocation) {
 		this.customerGeographiclocation = customerGeographiclocation;

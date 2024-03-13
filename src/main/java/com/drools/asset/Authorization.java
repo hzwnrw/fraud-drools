@@ -11,7 +11,6 @@ public class Authorization implements java.io.Serializable {
 	private String accountStatus;
 	private String accountStatusPosition1;
 	private String accountStatusPosition2;
-	private String accountStatusPosition3;
 	private String acquirersBin;
 	private String acquirersIca;
 	private String acquiringInstitutionId;
@@ -111,9 +110,6 @@ public class Authorization implements java.io.Serializable {
 	}
 	public String getAccountStatusPosition2() {
 		return accountStatusPosition2;
-	}
-	public String getAccountStatusPosition3() {
-		return accountStatusPosition3;
 	}
 	public String getAcquirersBin() {
 		return acquirersBin;
@@ -366,9 +362,6 @@ public class Authorization implements java.io.Serializable {
 	}
 	public void setAccountStatusPosition2(String accountStatusPosition2) {
 		this.accountStatusPosition2 = accountStatusPosition2;
-	}
-	public void setAccountStatusPosition3(String accountStatusPosition3) {
-		this.accountStatusPosition3 = accountStatusPosition3;
 	}
 	public void setAcquirersBin(String acquirersBin) {
 		this.acquirersBin = acquirersBin;

@@ -1,0 +1,5 @@
+<kmodule xmlns="http://www.drools.org/xsd/kmodule">
+    <kbase name="template-db-KBase" default="true" packages="com.fraudmgmt.drools.asset">
+        <ksession name="fraudKieSession" default="true" />
+    </kbase>
+</kmodule>
